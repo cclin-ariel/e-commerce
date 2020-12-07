@@ -69,6 +69,7 @@ li.navItem a:hover {
 #search-bar {
     width: 100%;
     height: 65px;
+    overflow: hidden;
 }
 .setBGColor {
     background-color: #f9f9f9
@@ -80,6 +81,7 @@ li.navItem a:hover {
 
 #brand-pic {
     float: left;
+    margin-top: 5px;
 }
 
 #Shop-by-category-btn {
@@ -101,3 +103,8 @@ li.navItem a:hover {
     left: 40px;
 }
 
+#search-form {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
