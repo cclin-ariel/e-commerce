@@ -167,3 +167,49 @@ li.navItem a:hover {
 #advanced-btn:hover {
     color: #0654ba;
 }
+
+/*navbar*/
+
+nav {
+    width: 100%;
+    height: 35px;
+    padding-top: 12px;
+}
+
+.tb-border {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#navigation-bar {
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0 11px 0;
+}
+
+.li-space {
+    float: left;
+    padding: 0 2%;
+}
+
+.divider {
+    float: left;
+    width: 1px;
+    height: 24px;
+    background-color: #ddd;
+    margin: -5px 10px 0 10px;
+}
+
+.active a {
+    font-weight: bold;
+    border-bottom: 2px solid #555555;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 5px !important;
+}
+
+.active a:hover {
+    text-decoration: none !important;
+    color: #555555 !important;
+}
