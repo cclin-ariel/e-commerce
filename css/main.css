@@ -87,6 +87,7 @@ li.navItem a:hover {
 #Shop-by-category-btn {
     float: left;
     width: 70px;
+    height: 60px;
 
     font-size: 14px;
     color: #555555;
