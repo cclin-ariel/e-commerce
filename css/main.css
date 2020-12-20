@@ -438,5 +438,8 @@ article {
     position: relative;
     width: 100%;
     overflow: hidden;
+    left: -10px;
     top: -64px;
 }
+
+/*daily deals*/
