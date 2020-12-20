@@ -320,6 +320,7 @@ nav {
     border-width: 1px 0 0 0;
     border-color: #ddd;
     border-style: solid;
+    overflow: hidden;
 }
 .thumbnail {
     width: 100%;
@@ -405,3 +406,37 @@ article {
 }
 
 /*Product2*/
+
+#photo-culinari1 {
+    margin-left: -140px;
+    height: 100%;
+}
+
+#thumbnail-culinary1 {
+    width: 100%;
+    margin-top: -10px;
+}
+
+#thumbnail-culinary2 {
+    width: 100%;
+    margin-top: -83px;
+}
+#thumbnail-culinary3 {
+    width: 100%;
+    margin-top: -24px;
+}
+
+/*Product3*/
+
+#photo-shoes1 {
+    width: 100%;
+}
+
+/*Product4*/
+
+#interior1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: -64px;
+}
