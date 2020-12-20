@@ -228,15 +228,15 @@ nav {
     float: left;
     height: 402px;
     box-sizing: border-box;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #column2 {
     position: relative;
-    float: left;
+    float: right;
     height: 402px;
     width: 290px;
-    margin-left: 20px;
+    margin-right: 15px;
 }
 
 .add-border {
@@ -255,10 +255,11 @@ nav {
 }
 
 /*productsection*/
+/*Product1*/
 
 #productsection {
     width: 100%;
-    height: 647px;
+    height: 1400px;
 }
 
 .hero-heading {
@@ -266,19 +267,19 @@ nav {
     height: 45px;
     color: #555555;
     font: 40;
-    left: 10px;
+    left: 15px;
     border-bottom: 1px solid #ddd;
     margin-top: 0;
 }
 
 #show-product {
     width: 100%;
-    height: 603px;
+    height: 680px;
 }
 
 .product-section {
     width: 580px;
-    height: 603px;
+    height: 680px;
     float: left;
 }
 
@@ -290,14 +291,14 @@ nav {
 
 .photo-colunm1 {
     float: left;
-    width: 65%;
+    width: 63%;
     height: 420px;
     border-width: 1px 0 1px 1px;
     border-color: #ddd;
     border-style: solid;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -324,3 +325,83 @@ nav {
     width: 100%;
     height: 100%;
 }
+
+/*procduct article*/
+
+article {
+    color: #333;
+    margin-left: 30px;
+    height: 70px;
+    overflow-y: initial;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 26px;
+    margin: 18px 0 10px 0;
+}
+
+.discription-container {
+    width: 370px;
+    height: 118px;
+}
+
+.product-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.read-more {
+    display: inline-block;
+}
+
+.left-col {
+    float: left;
+    width: 72%;
+}
+
+.right-col {
+    float: left;
+    width: 25%;
+}
+
+.right-col-text {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.right-col-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.right-col-item {
+    padding: 18px 0 18px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.right-col-item:last-child {
+    border: none;
+}
+
+.right-col-item a:link, .right-col-item a:visited {
+    text-decoration: none;
+    color: #0654b0 !important;
+}
+
+.right-col-item a:hover {
+    text-decoration: underline;
+    color: #0654b0;
+}
+
+.right-section {
+    float: right;
+    margin-right: 15px;
+}
+
+/*Product2*/
